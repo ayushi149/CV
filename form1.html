@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        p{
+            font-family: cursive ;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Form Using HTML</h2>
+
+    <form action="mailto:devliyaayushi7578@gmail.com" method="post">
+        <label for="name">Name</label>
+        <!--label is used for a particular id like name 
+        yha id name h jo ki name section ki id h aur ye label name section ko show krrha h-->
+
+        <div>
+            <input type="text" name="myName" id="name"><!--name is used to store name in backend as myname-->
+        </div>
+        <br>
+        <label for="stdi"> Mobile Number</label>
+        <div>
+            <input type="text" neme="mystd" id="stdi">
+        </div>
+        <br>
+        <label for="email">E Mail:</label>
+        <div>
+            <input type="email" name="mymail" id="email">
+        </div>
+        <br>
+        <label for="dob">DOB</label>
+        <div>
+            <input type="date" name="mydate" id="dob">
+        </div>
+        <br>
+        <label for="age"> Age</label>
+        <div>
+            <input type="number" name="myage" id="age">
+        </div>
+        <br>
+        <label for="gender">Gender</label>
+        <div>
+            Male <input type="radio" name="myradio"> Female <input type="radio" name="myradio" id="gender"> Other <input
+                type="radio" name="myradio">
+        </div>
+        <br>
+        
+        
+        <div>
+            Any Question or Quary?:<br> <textarea name="mytext" cols="50" rows="10">
+        </textarea>
+        </div>
+        <br>
+        <!-- <label for="car">Car</label>
+        <select name="mycar" id="car">
+            <option value="no" selected>None </option>
+            <option value="for">Fortuner</option>
+            <option value="bel">Beleno</option>
+            <option value="swt">Swift</option>
+            <option value="rr">Range Rover</option>
+        </select> -->
+        <div>
+            <input type="Submit" value="Submit"> <input type="reset" value="Reset">
+        </div>
+        <div>
+        </div>
+      
+
+    </form>
+    
+
+
+
+</body>
+
+</html>
